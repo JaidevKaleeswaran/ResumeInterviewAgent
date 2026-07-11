@@ -1,0 +1,20 @@
+# Node dependencies
+node_modules/
+dist/
+.vite-temp/
+.vite/
+
+# Python dependencies
+venv/
+venv2/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environments
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

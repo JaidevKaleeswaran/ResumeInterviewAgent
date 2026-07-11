@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+google-generativeai==0.8.3
+openai==1.58.1
+numpy>=1.24.0,<2.0.0
+python-multipart==0.0.17
+httpx==0.28.1
+pydantic==2.10.3
+pypdf==3.17.4
+mcp
+python-a2a[server]
