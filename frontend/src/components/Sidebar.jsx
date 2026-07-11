@@ -50,16 +50,6 @@ export default function Sidebar({ activeTab, onTabChange, isOpen, onToggle }) {
           ))}
         </nav>
 
-        <div className="sidebar-footer">
-          <div style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', marginBottom: '8px' }}>
-            SDG Alignment
-          </div>
-          <div className="sidebar-sdg">
-            <span className="sidebar-sdg-badge sdg-4">SDG 4</span>
-            <span className="sidebar-sdg-badge sdg-8">SDG 8</span>
-            <span className="sidebar-sdg-badge sdg-10">SDG 10</span>
-          </div>
-        </div>
       </aside>
     </>
   );

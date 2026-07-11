@@ -6,7 +6,6 @@ export default function Navbar({ activeTab, onTabChange }) {
     { id: 'resume', label: 'Resume Generator' },
     { id: 'interview', label: 'Interview Coach' },
     { id: 'jobs', label: 'Job Matches' },
-    { id: 'sdg', label: 'SDG Alignment' },
   ];
 
   return (

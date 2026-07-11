@@ -5,7 +5,6 @@ import LinkedInProfile from './components/LinkedInProfile';
 import JobMatches from './components/JobMatches';
 import InterviewCoach from './components/InterviewCoach';
 import LandingPage from './components/LandingPage';
-import SDGAlignment from './components/SDGAlignment';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
@@ -60,8 +59,6 @@ export default function App() {
         return <JobMatches resumeData={resumeData} />;
       case 'interview':
         return <InterviewCoach resumeData={resumeData} setResumeData={setResumeData} setActiveTab={setActiveTab} />;
-      case 'sdg':
-        return <SDGAlignment />;
       default:
         return null;
     }
